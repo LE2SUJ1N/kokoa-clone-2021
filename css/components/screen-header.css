@@ -2,9 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
-  position: fixed;
-  padding-top: 20px;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -14,4 +13,19 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.fasfa-cogfa-lg {
+  position: relative;
+}
+
+.find__notification {
+  display: flex;
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 50px;
 }

@@ -6,14 +6,18 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
 
 /*screen*/
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   color: #2e363e;
+  height: 1000vh;
 }
 
 .welcome-header {
@@ -31,4 +35,8 @@ body {
 .welcome-header__text {
   width: 60%;
   opacity: 0.7;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
